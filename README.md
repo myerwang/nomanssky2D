@@ -1,3 +1,5 @@
+原作者链接： https://gitee.com/lisniuse/nomanssky2D
+
 ```
  _   _       __  __                 ____  _          
 | \ | | ___ |  \/  | __ _ _ __  ___/ ___|| | ___   _
@@ -48,7 +50,7 @@
 鼠标：双击星点进入恒心系统。
 
 ## 三、在线体验地址 ： 
-http://case.tiesec.org/noMansSky2d/
+http://case.tiesec.org/noMansSky2d/ （已失效，下载后浏览器打开即可）
 
 ### PS：
 源码可以直接下载下来研究。
