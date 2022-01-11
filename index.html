@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>简单模拟《无人深空》游戏技术 by - tiesec.org</title>
+        <script type="text/javascript" src="core/Classjs.js"></script>
+        <script type="text/javascript" src="js/noMansSky.js"></script>
+        
+        <style type="text/css">
+            body{
+                margin: 0px;
+                padding: 0px;
+                background: #000;
+                text-align: center;
+                background-image: url(img/bg.jpg);
+            } 
+            .game-block{ 
+
+                box-shadow: 0px 0px 50px #000;
+                border-radius: 10px;
+                margin: 0px auto;
+                margin-top: 100px;
+                width:  800px;
+                height: 600px;
+            }
+            #game {
+                border-radius: 10px;
+                background-color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="game-block"><canvas id="game" width="800px" height="600px">您的浏览器不支canvas。请用支持html5的浏览器打开,例如chrome或火狐或者新版IE等。
+        </canvas></div>
+        <script type="text/javascript" src="js/init.js"></script>
+        <script type="text/javascript">
+            document.addEventListener('contextmenu', function ( event ) { event.preventDefault(); }, false );
+        </script>
+    </body>
+</html>
